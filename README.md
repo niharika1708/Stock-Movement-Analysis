@@ -2,11 +2,13 @@
 
 **Project Overview**
 
-This project aims to predict stock movements using sentiment analysis of user-generated content from Reddit. The steps include scraping relevant posts, performing sentiment analysis, and building a machine learning model to predict stock trends.
+This project aims to predict stock movements using sentiment analysis of user-generated content from Reddit. 
+The steps include scraping relevant posts, performing sentiment analysis, and building a machine learning model to predict stock trends.
 
 **Features**
 
 Data Scraping:
+
 Fetch posts from Reddit subreddits.
 Collect data such as title, content, upvotes, comments, and timestamps.
 Sentiment Analysis:
