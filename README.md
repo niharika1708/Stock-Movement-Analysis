@@ -1,10 +1,10 @@
-**#Stock Movement Analysis Based on Social Media Sentiment**
+**Stock Movement Analysis Based on Social Media Sentiment**
 
-**#Project Overview**
+**Project Overview**
 
 This project aims to predict stock movements using sentiment analysis of user-generated content from Reddit. The steps include scraping relevant posts, performing sentiment analysis, and building a machine learning model to predict stock trends.
 
-**#Features**
+**Features**
 
 Data Scraping:
 Fetch posts from Reddit subreddits.
@@ -15,7 +15,7 @@ Perform sentiment analysis to classify posts as positive or negative.
 Prediction Model:
 Use processed sentiment data to predict stock movements using machine learning.
 
-**#Technologies Used**
+**Technologies Used**
 
 Python Libraries:
 praw: For Reddit API interaction.
@@ -25,7 +25,7 @@ scikit-learn: For machine learning model development.
 Other Tools:
 Reddit API for data scraping.
 
-**#Setup Instructions**
+**Setup Instructions**
 
 Clone the Repository
 git clone <repository_url>
@@ -57,7 +57,7 @@ To train and evaluate the model:
 python prediction_model.py
 This script uses sentiment data to predict stock movements.
 
-**#How It Works**
+**How It Works**
 
 Data Flow
 Data Scraping:
@@ -70,7 +70,7 @@ Prediction:
 Uses a RandomForestClassifier to train on sentiment and simulate stock movements.
 Evaluates the model with metrics like accuracy, precision, and recall.
 
-**#Example Usage**
+**Example Usage**
 
 Sample Command:
 Scrape posts about Apple stock:
@@ -87,13 +87,13 @@ Precision: ~88%
 Recall: 0.1
 Sentiment scores reveal public perception about specific stocks.
 
-**#Future Enhancements**
+**Future Enhancements**
 
 Extend scraping to multiple platforms (e.g., Twitter, Telegram).
 Integrate advanced NLP techniques like BERT for sentiment analysis.
 Include more stock features like volume and market trends for prediction.
 
-**#Contact**
+**Contact**
 
 For queries or suggestions, reach out to:
 Name: Niharika R A
